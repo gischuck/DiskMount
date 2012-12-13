@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+"App_Name" = "DiskMount Helper";
+"Mount_Disk_Unsuccessfully" = "Mount Disk Unsuccessfully\nPlease Try Again!";
+"Mount_Disk_Successfully" = "Mount Disk Successfully!";
+"Eject_Disk_Successfully" = "Eject Disk Successfully!";
+"Eject_Disk_Unsuccessfully" = "Eject Disk Unsuccessfully\nPlease Check if any application is running on the disk!";
+"Informaion" = "Informaion";

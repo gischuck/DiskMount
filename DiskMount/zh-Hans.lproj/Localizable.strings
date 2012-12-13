@@ -1,0 +1,8 @@
+/* Localized versions of Info.plist keys */
+
+"App_Name" = "磁盘挂载助手";
+"Mount_Disk_Unsuccessfully" = "挂载磁盘失败\n请重试!";
+"Mount_Disk_Successfully" = "挂载磁盘成功!";
+"Eject_Disk_Successfully" = "推出磁盘成功!";
+"Eject_Disk_Unsuccessfully" = "推出磁盘失败\n请检查是否有程序正在该磁盘运行!";
+"Informaion" = "信息";
