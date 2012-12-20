@@ -17,7 +17,6 @@
 		3D95A3591675EB2B00572C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A3581675EB2B00572C7D /* AppDelegate.m */; };
 		3D95A35C1675EB2B00572C7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D95A35A1675EB2B00572C7D /* MainMenu.xib */; };
 		3DB24EC61676373800C53136 /* MyDiskUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB24EC51676373800C53136 /* MyDiskUtil.m */; };
-		3DB24EC91676417400C53136 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB24EC81676417400C53136 /* IOKit.framework */; };
 		3DB24ECB1676612C00C53136 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB24ECA1676612C00C53136 /* heart.png */; };
 		3DB24ED91676649900C53136 /* disk.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3DB24ED81676649800C53136 /* disk.icns */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		3D95A35B1675EB2B00572C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3DB24EC41676373800C53136 /* MyDiskUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiskUtil.h; sourceTree = "<group>"; };
 		3DB24EC51676373800C53136 /* MyDiskUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiskUtil.m; sourceTree = "<group>"; };
-		3DB24EC81676417400C53136 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		3DB24ECA1676612C00C53136 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		3DB24ED81676649800C53136 /* disk.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = disk.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB24EC91676417400C53136 /* IOKit.framework in Frameworks */,
 				3D95A3461675EB2A00572C7D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +97,6 @@
 		3D95A3441675EB2A00572C7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DB24EC81676417400C53136 /* IOKit.framework */,
 				3D95A3451675EB2A00572C7D /* Cocoa.framework */,
 				3D95A3471675EB2A00572C7D /* Other Frameworks */,
 			);

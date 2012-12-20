@@ -29,32 +29,6 @@ static bool firstRun = NO;
 	[[NSStatusBar systemStatusBar] removeStatusItem:_statusItem];
 }
 
-//- (NSMutableArray *)refreshDisks
-//{
-//    NSArray *keys = [NSArray arrayWithObjects:NSURLVolumeNameKey, NSURLVolumeIsRemovableKey, nil];
-//    NSArray *urls = [[NSFileManager defaultManager] mountedVolumeURLsIncludingResourceValuesForKeys:keys options:0];
-//    
-//    NSMutableArray *disksList = [[NSMutableArray alloc] init];
-//    //[disksList removeAllObjects];
-//    
-//    for (NSURL *url in urls) {
-//        NSError *error;
-//        NSNumber *isRemovable;
-//        NSString *volumeName;
-//        [url getResourceValue:&isRemovable forKey:NSURLVolumeIsRemovableKey error:&error];
-//        //        if ([isRemovable boolValue]) {
-//        [url getResourceValue:&volumeName forKey:NSURLVolumeNameKey error:&error];
-//        if (!([volumeName rangeOfString:@"home"].length > 0) && !([volumeName rangeOfString:@"net"].length > 0)) {
-//            [disksList addObject:volumeName];
-//        }
-//        
-//        NSLog(@"Name:%@ isRemovable:%@", volumeName, isRemovable);
-//        //        }
-//    }
-//    
-//    return disksList;
-//}
-
 //Task Function
 - (NSArray *)doTaskPath:(NSString *)launchPath taskArgumentName:(NSString *)argumentName withParms:(NSString *)parms
 {
